@@ -1,4 +1,4 @@
 # Table of contents
 
-* [Object Oriented Design (OOD) - PRUEBA](README.md)
+* [Texto de prueba](README.md)
 * [Hola](hola.md)
