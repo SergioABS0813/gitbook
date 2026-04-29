@@ -12,3 +12,4 @@
 ## Object Oriented Modeling
 
 * [Creating Models in Design](object-oriented-modeling/creating-models-in-design.md)
+* [Los 4 principios de diseño](object-oriented-modeling/los-4-principios-de-diseno.md)
