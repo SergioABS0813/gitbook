@@ -1,9 +1,6 @@
-# Object Oriented Design (OOD)
+---
+description: Gitbook acerca de Diseño y Arquitectura de Software
+---
 
-Este es el módulo 1 del curso de Software Design and Architecture
+# README
 
-```
-// Some code
-```
-
-* ASDASDAS
