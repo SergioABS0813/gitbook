@@ -1,6 +1,6 @@
 # Table of contents
 
-* [README](README.md)
+* [Descripción general](README.md)
 
 ## Object Oriented Design (OOD)
 
