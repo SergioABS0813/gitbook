@@ -6,28 +6,4 @@ Este es el módulo 1 del curso de Software Design and Architecture
 // Some code
 ```
 
-* GAAA
 * ASDASDAS
-
-```
-// Some codeasdas
-
-asdasda
-asdasdas
-
-```
-
-## dasdas
-
-```
-```
-
-{% hint style="info" %}
-asdasdas
-{% endhint %}
-
-* [ ] asdas
-* [ ] asdasdas
-
-asdas
-
