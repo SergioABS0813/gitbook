@@ -172,3 +172,87 @@ Firma:
 * arreglarCarro(String, Time)
 {% endhint %}
 
+```java
+//Implementando Interfaz IAnimal
+public interface IAnimal {
+    public void mover();
+    public void hacerSonido();
+    public void eat();
+}
+```
+
+Apreciamos que una Interfaz no tiene atributos de Animal, solamente declara las firmas de los métodos que hace un animal.
+
+```java
+public class Dog implements IAnimal{
+    /*Atributos de la clase Dog*/
+    public void mover(){
+        //Lógica del método
+    }
+    public void hacerSonido(){
+        //Lógica del método
+    }
+    public void eat(){
+        //Lógica del método
+    }
+}
+```
+
+En un diagrama UML, se grafica de esta manera:
+
+* Se debe mostrar que es una interfaz, el nombre de la interfaz y también los métodos que están ordenados en la interfaz.
+* Se representa con líneas punteadas y con una flecha apuntando al interfaz.
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-04-30 111612.png" alt="" width="243"><figcaption></figcaption></figure>
+
+&#x20;
+
+Una interfaz no es una clase abstracta, pero tiene mucho parecido. De igual manera, es una forma de implementar el Polimorfismo.
+
+{% hint style="info" icon="book-open-lines" %}
+Múltiple Herencia: Cuando una clase tiene 2 o más Superclases. En C++ se puede, pero en JAVA, no se admite eso porque puede generar ambiguedad en los datos
+
+Ambiguedad datos
+
+* Mismo nombre de los atributos de sus Superclases.
+* Misma firma de método entre Superclases.
+{% endhint %}
+
+{% hint style="info" icon="book-open-lines" %}
+Múltiple Herencia de una Clase con Interfaces
+
+Java acepta la implementación de heredar de múltiples interfaces, no hay problema de ambiguedad.
+
+```java
+public interface IPublicSpeaking{
+    public void givePresentation(){
+    }
+    public void speak(){
+    }
+}
+```
+
+```java
+public interface IPrivateSpeaking{
+    public void lowerVoiceVolume(){
+    }
+    public void speak(){
+    }
+}
+```
+
+```java
+public class Person implements IPrivateSpeaking, IPublicSpeaking{
+    /*Atributos de la clase Person*/
+    public void speak(){
+        System.out.println("Hola")
+    }
+}
+```
+{% endhint %}
+
+{% hint style="info" icon="book-open-lines" %}
+Existe Herencia de Interfaces, en la que una interfaz puede heredar métodos de otras interfaces.
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/Screenshot 2026-04-30 121507.png" alt=""><figcaption></figcaption></figure>
