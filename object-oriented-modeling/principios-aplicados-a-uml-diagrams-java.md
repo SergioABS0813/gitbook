@@ -156,6 +156,19 @@ public class Dog extends Animal{
 ### Generalización aplicada en Diagrama de clase
 
 {% hint style="info" icon="book-open-lines" %}
-Una interfaz de Java solo declara la firma de los métodos (no constructores, no atributos ni method bodies)
+Una interfaz de Java solo contiene la firma de los métodos (nombre del método y los tipos de datos de los argumentos).
+
+* Interfaz en Java no es una clase.
+* Se usa para definir métodos (comportamientos) que van a compartir múltiples clases.
+{% endhint %}
+
+{% hint style="success" %}
+Ejemplo práctico: **Firma de un método**
+
+`public void arreglarCarro(String action, Time time)`&#x20;
+
+Firma:
+
+* arreglarCarro(String, Time)
 {% endhint %}
 
